@@ -1,0 +1,41 @@
+/* Settings at http://consul-community.digidemlab.org/admin/customize/themes/3/common/scss/edit */
+
+
+.top-links {
+  background: #00a8e1;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.top-links li {
+    display: inline-block;
+}
+
+ul.external-links {
+  float: right;
+  padding: 6px 0;
+  text-align: center;
+  margin: 0;
+  list-style: none;
+  line-height: 1.6;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.top-links a {
+  color: #fff;
+  margin: 0 6px;
+  text-decoration: none;
+}
+
+.top-links a.active {
+    text-decoration: underline;
+}
+
+.top-links li::after {
+  content: '|';
+}
+
+.top-links li:last-child::after {
+  content: none;
+}
